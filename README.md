@@ -1,2 +1,2 @@
 # Test-Mod
-A minecraft mod that adds advanced lights to the game for different visual effects
+A dumping ground for Java and other related testing for Minecraft modding
