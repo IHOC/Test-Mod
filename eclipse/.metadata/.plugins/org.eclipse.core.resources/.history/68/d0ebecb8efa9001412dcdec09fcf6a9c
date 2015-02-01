@@ -1,0 +1,39 @@
+package com.example.examplemod;
+
+import com.example.examplemod.handler.ConfigurationHandler;
+import com.example.examplemod.proxy.IProxy;
+import com.example.examplemod.reference.Reference;
+import com.example.examplemod.utility.LogHelper;
+
+import net.minecraft.init.Blocks;
+import cpw.mods.fml.common.*;
+import cpw.mods.fml.common.Mod.*;
+import cpw.mods.fml.common.event.*;
+
+@Mod(modid = Reference.MOD_ID, name = Reference.MOD_NAME, version = Reference.VERSION, guiFactory = Reference.GUI_FACTORY_CLASS)
+public class ExampleMod
+{
+    @Instance(Reference.MOD_ID)
+    public static ExampleMod instance;
+    
+    @SidedProxy(clientSide=Reference.CLIENT_PROXY_CLASS,serverSide=Reference.SERVER_PROXY_CLASS)
+    public static IProxy proxy;
+    
+    @EventHandler
+    public void preInit(FMLPreInitializationEvent event) {
+    	ConfigurationHandler.init(event.getSuggestedConfigurationFile());
+    	LogHelper.info("Pre Initialization Complete!");
+    	
+    }
+    
+    @EventHandler
+    public void init(FMLInitializationEvent event)
+    {
+    	LogHelper.info("Initialization Complete!");
+    }
+    
+    @EventHandler
+    public void postInit(FMLPostInitializationEvent event) {
+    	LogHelper.info("Post Initialization Complete!");
+    }
+}

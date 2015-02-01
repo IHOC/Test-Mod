@@ -4,6 +4,8 @@ public class ItemOakLeaf extends ItemEM {
 
 	public ItemOakLeaf() {
 		super();
+		this.setUnlocalizedName("oakLeaf");
 	}
+	
 	
 }

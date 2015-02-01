@@ -1,0 +1,10 @@
+package com.example.examplemod.item;
+
+public class Maglite2D extend ItemEM {
+
+	public ItemOakLeaf() {
+		super();
+		this.setUnlocalizedName("maglite2D");
+	}
+	
+}

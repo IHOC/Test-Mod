@@ -1,0 +1,22 @@
+package com.example.examplemod.item;
+
+import com.example.examplemod.reference.Reference;
+
+import net.minecraft.item.Item;
+
+public class ItemEM extends Item {
+
+	public ItemEM(){
+		super();
+	}
+	
+	@Override
+	public String getUnlocalizedName() {
+		return String.format("item.%s%s", Reference.MOD_ID.toLowerCase(),  getUnwrappedUnlocalizedName(super.getUnlocalizedName()));
+	}
+	
+	protected String getUnwrappedUnlocalizedName(String unlocalizedName)
+    {
+        return unlocalizedName.substring(unlocalizedName.indexOf(".") + 1);
+    }
+}
