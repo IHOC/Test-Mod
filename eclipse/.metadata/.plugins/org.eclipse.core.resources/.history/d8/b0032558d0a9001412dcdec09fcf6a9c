@@ -1,0 +1,5 @@
+package com.example.examplemod.configuration;
+
+public class ConfigurationHandler {
+
+}
