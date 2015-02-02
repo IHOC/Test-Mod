@@ -1,0 +1,11 @@
+package com.example.examplemod.block.Bulbs;
+
+import com.example.examplemod.block.*;
+
+public class BlockIncandescentBulb extends BlockEM {
+	public BlockIncandescentBulb() {
+		super();
+		this.setBlockName("incandescentBulb");
+		this.setLightLevel(10);
+	}
+}

@@ -1,0 +1,13 @@
+package com.example.examplemod.block.Sockets;
+
+import com.example.examplemod.block.BlockEM;
+
+public class BlockSimpleLightSocket extends BlockEM {
+	
+	public BlockSimpleLightSocket() {
+		super();
+		this.setBlockName("simpleLightSocket");
+		this.setBlockTextureName("simpleLightSocket");
+	}
+
+}

@@ -1,0 +1,11 @@
+package com.example.examplemod.block;
+
+public class BlockSimpleLightSocket extends BlockEM {
+	
+	public BlockSimpleLightSocket() {
+		super();
+		this.setBlockName("incandescentLightSocket");
+		this.setBlockTextureName("incandescentLightSocket");
+	}
+
+}

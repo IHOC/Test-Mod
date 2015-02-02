@@ -1,5 +1,6 @@
 package com.example.examplemod.item;
 
+import com.example.examplemod.creativetab.CreativeTabEM;
 import com.example.examplemod.reference.Reference;
 
 import cpw.mods.fml.relauncher.Side;
@@ -12,6 +13,7 @@ public class ItemEM extends Item {
 
 	public ItemEM(){
 		super();
+		this.setCreativeTab(CreativeTabEM.ExampleMod);
 	}
 	
 	@Override

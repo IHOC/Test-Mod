@@ -5,22 +5,6 @@
  R4wk, ZeuX, IngisKahn, bspkrs
  MCP Data version : unknown
 ****************************
-:downloadClient SKIPPED
-:downloadServer SKIPPED
-:getVersionJson
-:extractUserDev
-:mergeJars SKIPPED
-:applyBinPatches SKIPPED
-:downloadMcpTools SKIPPED
-:extractMcpData
-:genSrgs SKIPPED
-:deobfBinJar SKIPPED
-:extractNatives
-:copyNativesLegacy
-:getAssetsIndex
-:getAssets
-:makeStart SKIPPED
-:setupDevWorkspace UP-TO-DATE
 :eclipseClasspath
 :eclipseJdt
 :eclipseProject
@@ -28,4 +12,4 @@
 
 BUILD SUCCESSFUL
 
-Total time: 21.171 secs
+Total time: 14.433 secs

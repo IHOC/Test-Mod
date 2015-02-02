@@ -1,6 +1,7 @@
 package com.example.examplemod;
 
 import com.example.examplemod.handler.ConfigurationHandler;
+import com.example.examplemod.init.ModBlocks;
 import com.example.examplemod.init.ModItems;
 import com.example.examplemod.proxy.IProxy;
 import com.example.examplemod.reference.Reference;
@@ -27,6 +28,8 @@ public class ExampleMod
     	LogHelper.info("Pre Initialization Complete!");
     	
     	ModItems.init();
+    	
+    	ModBlocks.init();
     }
     
     @EventHandler

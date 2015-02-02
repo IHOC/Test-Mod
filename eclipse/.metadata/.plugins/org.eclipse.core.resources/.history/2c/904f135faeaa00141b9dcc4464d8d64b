@@ -1,0 +1,32 @@
+package com.example.examplemod.block.Sockets;
+
+import net.minecraft.util.AxisAlignedBB;
+import net.minecraft.world.World;
+
+import com.example.examplemod.block.BlockEM;
+
+public class BlockSimpleLightSocket extends BlockEM {
+	
+	public BlockSimpleLightSocket() {
+		super();
+		this.setBlockName("simpleLightSocket");
+		this.setBlockTextureName("simpleLightSocket");
+	}
+
+	@Override
+	public AxisAlignedBB getCollisionBoundingBoxFromPool(World world, int x, int y, int z)
+    {
+        return null;
+    }
+	
+	@Override
+	public boolean isOpaqueCube() {
+		return false;
+	}
+	
+	@Override
+	public int getRenderType()
+    {
+        return 2;
+    }
+}

@@ -1,0 +1,14 @@
+package com.example.examplemod.block.Bulbs;
+
+import net.minecraft.block.material.Material;
+
+import com.example.examplemod.block.*;
+
+public class BlockIncandescentBulb extends BlockEM {
+	public BlockIncandescentBulb() {
+		super(Material.circuits);
+		this.setBlockName("incandescentBulb");
+		this.setLightLevel(0.9375F);
+		this.setHardness(0.0F);
+	}
+}

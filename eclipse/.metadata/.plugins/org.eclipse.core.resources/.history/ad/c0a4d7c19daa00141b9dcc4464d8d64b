@@ -1,0 +1,12 @@
+package com.example.examplemod.creativetab;
+
+import net.minecraft.creativetab.CreativeTabs;
+
+public class CreativeTabEM {
+	public static final CreativeTabs ExampleMod = new CreativeTabs() {
+		@Override
+		public Item getTabIconItem() {
+			return null;
+		}
+	}
+}

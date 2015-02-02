@@ -1,0 +1,12 @@
+package com.example.examplemod.block;
+
+public class BlockIncandescentLightBase extends BlockEM {
+	
+	public BlockIncandescentLightBase() {
+		super();
+		this.setBlockName("incandescentLightBase");
+		this.setBlockTextureName("incandescentLightBase");
+		this.setLightLevel(15);
+	}
+
+}

@@ -1,0 +1,12 @@
+package com.example.examplemod.tileentity;
+
+import net.minecraft.entity.player.EntityPlayer;
+import net.minecraft.inventory.*;
+import net.minecraft.item.ItemStack;
+import net.minecraft.tileentity.TileEntity;
+
+public class InventorySingleFixture extends TileEntity implements IInventory {
+
+	
+
+}

@@ -1,0 +1,14 @@
+package com.example.examplemod.init;
+
+import com.example.examplemod.block.*;
+
+import cpw.mods.fml.common.registry.GameRegistry;
+
+public class ModBlocks {
+
+	public static final BlockEM incandescentLight = new BlockIncandescentLight();
+	
+	public static void init() {
+		GameRegistry.registerBlock(incandescentLight, "incandescentLight");
+	}
+}

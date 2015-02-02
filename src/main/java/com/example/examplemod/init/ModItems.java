@@ -1,8 +1,10 @@
 package com.example.examplemod.init;
 
 import com.example.examplemod.item.*;
+import com.example.examplemod.reference.Reference;
 import cpw.mods.fml.common.registry.*;
 
+@GameRegistry.ObjectHolder(Reference.MOD_ID)
 public class ModItems {
 	
 	public static final ItemEM oakLeaf = new ItemOakLeaf();

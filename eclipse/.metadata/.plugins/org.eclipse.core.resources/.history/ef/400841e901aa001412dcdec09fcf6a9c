@@ -1,0 +1,16 @@
+package com.example.examplemod.init;
+
+import com.example.examplemod.block.*;
+import com.example.examplemod.reference.Reference;
+
+import cpw.mods.fml.common.registry.GameRegistry;
+
+@GameRegistry.ObjectHolder(Reference.MOD_ID)
+public class ModBlocks {
+
+	public static final BlockEM incandescentLightSocket = new BlockIncandescentLightSocket();
+	
+	public static void init() {
+		GameRegistry.registerBlock(incandescentLightSocket, "incandescentLightSocket");
+	}
+}

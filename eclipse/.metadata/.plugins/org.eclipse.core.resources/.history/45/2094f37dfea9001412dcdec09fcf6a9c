@@ -1,0 +1,7 @@
+package com.example.examplemod.block;
+
+public class BlockIncandescentLight extends BlockEM {
+	
+	public Block
+
+}
